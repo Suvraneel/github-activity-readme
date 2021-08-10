@@ -1683,7 +1683,7 @@ module.exports = (function (modules, runtime) {
 							readmeContent.splice(
 								startIdx + idx,
 								0,
-								`${idx === 10 ? "\n<details><summary>Show More</summary>\n\n" : ""}${line}  ${
+								`${idx === 10 ? "\n<details><summary><b> ⚙️ Show Older Activity</b></summary>\n\n" : ""}${line}  ${
 									idx === content.length - 1 ? "\n\n</details>\n<!--END_SECTION:activity-->" : ""
 								}`
 							)
